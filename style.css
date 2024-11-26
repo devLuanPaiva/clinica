@@ -1,0 +1,135 @@
+
+.header {
+    padding: 0.5em 1em; 
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #0B3F67, #0D4775, #117ACD);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffffff90;
+}
+
+
+.text-container h1, .text-container h3, .text-container p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.text-container h1 {
+    font-size: 2.5rem;
+}
+
+.text-container h3 {
+    font-size: 1.75rem;
+}
+
+.text-container p {
+    font-size: 1.25rem;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    border-color: #0B3F67;
+    color: #0B3F67;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0B3F67;
+    color: #fff;
+}
+
+
+.image-container {
+    height: calc(100vh);
+    display: flex;
+    z-index: 1;
+    
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 350px) {
+    .text-container h1 {
+        font-size: 1.75rem;
+    }
+
+    .text-container h3 {
+        font-size: 1.25rem;
+    }
+
+    .text-container p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .text-container {
+        text-align: center;
+    }
+
+    .text-container h1 {
+        font-size: 2rem;
+    }
+
+    .text-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .image-container {
+        height: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .text-container {
+        text-align: left;
+    }
+
+    .text-container h1 {
+        font-size: 2.25rem;
+    }
+
+    .text-container h3 {
+        font-size: 1.65rem;
+    }
+
+    .text-container p {
+        font-size: 1.15rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .text-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-container h3 {
+        font-size: 1.75rem;
+    }
+
+    .image-container {
+        height: 70%;
+    }
+}
